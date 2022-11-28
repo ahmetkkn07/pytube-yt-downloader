@@ -6,6 +6,7 @@ from videoDownloader import VideoDownloader
 def main():
     app = QApplication(sys.argv)
     videoDownloader = VideoDownloader()
+    videoDownloader.show()
     sys.exit(app.exec_())
 
 

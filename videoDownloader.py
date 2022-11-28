@@ -90,7 +90,6 @@ class VideoDownloader(QtWidgets.QWidget):
 
         self.setMinimumHeight(800)
         self.setMinimumWidth(800)
-        self.show()
 
         self.pushButton_download.clicked.connect(self.download)
         self.lineEdit_link.returnPressed.connect(self.get_list)
